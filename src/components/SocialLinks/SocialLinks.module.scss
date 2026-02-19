@@ -1,3 +1,5 @@
+@use '../../variables' as *;
+
 .socialLinksContainer {
   display: flex;
   gap: 8px;
@@ -13,9 +15,9 @@
   transition: all 0.3s ease;
 
   &:hover {
-    color: #4E7EF5;
+    color: $blue;
     background-color: #eee;
-    outline: 2px solid #4E7EF5;
+    outline: 2px solid $blue;
   }
 }
 

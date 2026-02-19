@@ -2,8 +2,11 @@ import React from "react";
 import { Grid } from "@mui/material";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
 import "./App.scss"
+import { PROFILE } from "./constants";
+
 
 function App() {
+  document.title = PROFILE.name;
   const backgroundImage = `linear-gradient(
     rgba(255, 255, 255, 0.4), 
     rgba(255, 255, 255, 0.4)

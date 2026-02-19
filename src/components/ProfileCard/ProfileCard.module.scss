@@ -1,5 +1,6 @@
+@use '../../variables' as *;
+
 .cardContainer {
-    width: 500px;
     height: auto;
     border-radius: 8px;
     overflow: hidden;
@@ -11,7 +12,7 @@
 }
 
 .cardHeader {
-    background-color: #4E7EF5;
+    background-color: $blue;
     border-bottom: 2px solid #3366CC;
 }
 
